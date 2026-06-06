@@ -1,0 +1,25 @@
+2026-06-06T18:11:19+08:00
+Linux nv-LEGION-REN7000K-26IRX 5.15.0-139-generic #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+8b6e3ab8f40f41b029b0e01ea33d2a5897a3330c
+## main...origin/main
+ M tools/env/check_prereqs.sh
+c8222cc67a399bfc01e8658dd14b30d5bfd634f9
+## HEAD (no branch)
+406540cc7d3c7e885ba155a5ee11909d3cb5ee01
+## HEAD (no branch)
+bazel 7.4.1
+Python 3.8.10
+uv 0.11.19 (x86_64-unknown-linux-gnu)
+Verilator 5.049 devel rev v5.048-190-g99f62fca6
