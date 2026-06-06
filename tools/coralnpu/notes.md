@@ -9,3 +9,6 @@ tools/coralnpu/run_upstream_smoke.sh \
 export OPEN_NPUX_CORALNPU_REPOSITORY_CACHE=/hdd_8T/michael/bazel-cache/coralnpu-repo-cache
 export OPEN_NPUX_CORALNPU_DISTDIR=/hdd_8T/michael/bazel-cache/coralnpu-distdir
 export OPEN_NPUX_CORALNPU_DISK_CACHE=/hdd_8T/michael/bazel-cache/coralnpu-disk-cache
+
+export BAZELISK_BASE_URL=https://mirrors.huaweicloud.com/bazel/
+export USE_BAZEL_VERSION=7.4.1
