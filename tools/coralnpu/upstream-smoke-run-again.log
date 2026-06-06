@@ -1,0 +1,58 @@
+[INFO] host: Linux x86_64
+[INFO] bazel: bazel 7.4.1
+[INFO] verilator: Verilator 5.049 devel rev v5.048-190-g99f62fca6
+[INFO] command: bazel build --repository_cache=/hdd_8T/michael/bazel-cache/coralnpu-repo-cache --distdir=/hdd_8T/michael/bazel-cache/coralnpu-distdir --disk_cache=/home/michaelyao1/.cache/open-npux/coralnpu-disk --experimental_repository_cache_hardlinks //examples:coralnpu_v2_hello_world_add_floats
+INFO: Invocation ID: bea720f2-7dd9-4308-a06b-dcdbc8796780
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //examples:coralnpu_v2_hello_world_add_floats (0 packages loaded, 0 targets configured)
+Analyzing: target //examples:coralnpu_v2_hello_world_add_floats (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed target //examples:coralnpu_v2_hello_world_add_floats (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+Target //examples:coralnpu_v2_hello_world_add_floats up-to-date:
+  bazel-bin/examples/coralnpu_v2_hello_world_add_floats.elf
+  bazel-bin/examples/coralnpu_v2_hello_world_add_floats.bin
+  bazel-bin/examples/coralnpu_v2_hello_world_add_floats.vmem
+INFO: Elapsed time: 0.229s, Critical Path: 0.01s
+INFO: 1 process: 1 internal.
+INFO: Build completed successfully, 1 total action
+[INFO] command: bazel build --repository_cache=/hdd_8T/michael/bazel-cache/coralnpu-repo-cache --distdir=/hdd_8T/michael/bazel-cache/coralnpu-distdir --disk_cache=/home/michaelyao1/.cache/open-npux/coralnpu-disk --experimental_repository_cache_hardlinks //tests/verilator_sim:core_mini_axi_sim
+INFO: Invocation ID: 2e84d9b1-0623-4e0d-8bbb-3c7eefe9bd80
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //tests/verilator_sim:core_mini_axi_sim (0 packages loaded, 0 targets configured)
+Analyzing: target //tests/verilator_sim:core_mini_axi_sim (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed target //tests/verilator_sim:core_mini_axi_sim (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+Target //tests/verilator_sim:core_mini_axi_sim up-to-date:
+  bazel-bin/tests/verilator_sim/core_mini_axi_sim
+INFO: Elapsed time: 0.261s, Critical Path: 0.02s
+INFO: 1 process: 1 internal.
+INFO: Build completed successfully, 1 total action
+[INFO] command: bazel build --repository_cache=/hdd_8T/michael/bazel-cache/coralnpu-repo-cache --distdir=/hdd_8T/michael/bazel-cache/coralnpu-distdir --disk_cache=/home/michaelyao1/.cache/open-npux/coralnpu-disk --experimental_repository_cache_hardlinks //tests/verilator_sim:rvv_core_mini_axi_sim
+INFO: Invocation ID: e4359a6c-346c-4c7d-bb5a-4528483dcd3e
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //tests/verilator_sim:rvv_core_mini_axi_sim (0 packages loaded, 0 targets configured)
+Analyzing: target //tests/verilator_sim:rvv_core_mini_axi_sim (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed target //tests/verilator_sim:rvv_core_mini_axi_sim (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+Target //tests/verilator_sim:rvv_core_mini_axi_sim up-to-date:
+  bazel-bin/tests/verilator_sim/rvv_core_mini_axi_sim
+INFO: Elapsed time: 0.245s, Critical Path: 0.02s
+INFO: 1 process: 1 internal.
+INFO: Build completed successfully, 1 total action
+[INFO] running simulation with binary: bazel-out/k8-fastbuild-ST-dd8dc713f32d/bin/examples/coralnpu_v2_hello_world_add_floats.elf
+
+        SystemC 2.3.4-Accellera --- redacted redacted
+        Copyright (c) 1996-2022 by all Contributors,
+        ALL RIGHTS RESERVED
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+OPEN_NPUX_UPSTREAM_SMOKE_PASS
