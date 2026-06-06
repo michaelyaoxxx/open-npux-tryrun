@@ -1,0 +1,10 @@
+found: git -> /usr/bin/git
+found: python3 -> /usr/bin/python3
+found: uv -> /home/michaelyao1/.local/bin/uv
+found: bazel -> /home/michaelyao1/.local/bin/bazel
+found: verilator -> /home/michaelyao1/.local/bin/verilator
+python: Python 3.8.10
+uv: uv 0.11.19 (x86_64-unknown-linux-gnu)
+bazel: bazel 7.4.1
+verilator: Verilator 5.049 devel rev v5.048-190-g99f62fca6
+fatal: destination path 'thirdparty/coralnpu' already exists and is not an empty directory.
